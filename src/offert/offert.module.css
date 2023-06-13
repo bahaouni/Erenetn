@@ -1,0 +1,129 @@
+.container{
+    background-color: #980808;
+    height: 100%;
+    display: grid;
+    margin: 10%;
+    -webkit-box-shadow: 1px 2px 17px 5px rgba(0,0,0,0.63); 
+    box-shadow: 1px 2px 17px 5px rgba(0,0,0,0.63);
+}
+.aa{
+    text-decoration: none;
+    font-size: 290%;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    color: whitesmoke;
+}
+.img{
+    background-color: whitesmoke;
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+.sous{
+    display: grid;
+    flex-direction: column;
+    position: relative;
+
+
+    
+    align-items: center;
+    margin: 50px;
+    border-radius: 50px;
+    background-color: rgb(242 234 237);
+    padding-bottom: 30px;
+   
+}
+.title input{
+    width: 56%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 8%;
+    margin-left: 100px;
+    font-size: 130%;
+}
+
+
+
+
+
+.loc input{
+    width: 56%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 8%;
+    margin-left: 70px;
+    font-size: 130%;
+}
+
+.gov select{
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 11%;
+    margin-left: 30px;
+    font-size: 90%;
+}
+
+.pri input{
+    width: 56%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 8%;
+    margin-left: 97px;
+    font-size: 130%;
+}
+
+.num input{
+    width: 56%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 8%;
+    margin-left: 5px;
+    font-size: 130%;
+}
+
+.mail input{
+    width: 56%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 8%;
+    margin-left: 90px;
+    font-size: 130%;
+}
+.title, .des, .gov, .loc, .pri, .num, .mail{
+    height: 50px;
+   /* width: 100%;*/
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    font-size: 150%;
+    margin-left: 6%;
+}
+
+#sub{
+   
+    place-content: center;
+    display: flex;
+    margin: 10%;
+    
+    height: 25%;
+}
+#sub input{
+    background: #980808;
+    font-weight: 700;
+    font-size: 150%;
+    color: whitesmoke;
+    border: none;
+    width: 25%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#sub input:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 0px 25px 15px -15px rgba(0, 0, 0, 0.3);
+}

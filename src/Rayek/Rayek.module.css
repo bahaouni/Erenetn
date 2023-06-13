@@ -1,0 +1,68 @@
+body {
+    background-color: #eee;
+    font-size: 16px;
+    color: #444;
+    padding: 20px;
+  }
+  .offer {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .offer:hover {
+    background-color: #f9f9f9;
+  }
+  .navv {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #980808;
+  }
+  li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .comment {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .comment:hover {
+    background-color: #f9f9f9;
+  }
+  form label {
+    font-size: 14px;
+    color: #666;
+    display: block;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  button[type="submit"] {
+    background-color: #980808;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #980808;
+  }
